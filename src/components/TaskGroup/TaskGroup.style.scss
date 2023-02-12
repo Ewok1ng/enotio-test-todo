@@ -1,0 +1,17 @@
+@import '../../scss/variables';
+
+.task-group {
+    &__color {
+        margin-right: 14px;
+
+        width: 5px;
+        height: 40px;
+
+        border-radius: 3px;
+        background-color: $color-gray-1;
+    }
+}
+
+.task-group + *{
+    margin-top: 32px;
+}
